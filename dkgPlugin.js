@@ -39,6 +39,12 @@ function jquery_ready() {
 
     if($('#dkgPlugin').length != 0) return;     //don't add again
 
+    // remove ad block
+    $('#sectionAd').remove();
+    $('#sectionRight').css('right', '0px');
+    $('#sectionMiddle').css('right', '318px');
+    $('.separatorRight').css('right', '317px');
+
     $('<div id="dkgPlugin" class="storeSection">').insertAfter('#storeTitle');
 
     $('<div id="dkg0" class="crate">')
