@@ -13,7 +13,7 @@ enable script
 ::
 
     var script = document.createElement('script');
-    script.src = 'https://raw.githubusercontent.com/darkgerm/CookieClickerPlugin/master/dkgPlugin.js';
+    script.src = 'https://rawgithub.com/darkgerm/CookieClickerPlugin/master/dkgPlugin.js';
     script.type = 'text/javascript';
     document.getElementsByTagName('head')[0].appendChild(script);
 
@@ -23,7 +23,7 @@ bookmarklet
     
     javascript:(function(){
     var script = document.createElement('script');
-    script.src = 'https://raw.githubusercontent.com/darkgerm/CookieClickerPlugin/master/dkgPlugin.js';
+    script.src = 'https://rawgithub.com/darkgerm/CookieClickerPlugin/master/dkgPlugin.js';
     script.type = 'text/javascript';
     document.getElementsByTagName('head')[0].appendChild(script);
     })();
